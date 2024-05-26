@@ -7,13 +7,8 @@
     <title>Page 2</title>
 </head>
 <body>
-    <h1>Está é a page 2</h1>
-
-    <p>Plus -> Meu nome é: 
-        @foreach ($name as $names) 
-        {{$names['name']}}
-        @endforeach
-    </p>
+    <h1>Essa é a page 2</h1>
+    <p>Plus -> O nome é: {{ $name }}</p>
  
     <a href="{{ url('') }}">Voltar para page 1</a>
 </body>
